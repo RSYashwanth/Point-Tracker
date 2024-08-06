@@ -30,5 +30,5 @@ It is a GUI based program that takes in an input video, tracks a particular poin
 6. Click process and choose a directory to save output video to ( Progress and iterations/20 per frame in the console )
 
 ## Examples
-1. ![Point Tracker Example 1](images/a.gif)
+1. ![Point Tracker Example 1](./images/output-video.gif)
    
