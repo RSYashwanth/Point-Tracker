@@ -176,7 +176,7 @@ public class PointTracker extends Application {
    * @param stage the main stage to draw the application in
    */
   private void loadImage(Stage stage) {
-    tracker.flushFrames();
+    Tracker.flushFrames();
 
     FileChooser fileChooser = new FileChooser();
     fileChooser.setTitle("Open Video File");

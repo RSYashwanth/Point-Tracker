@@ -17,7 +17,7 @@ import java.io.InputStreamReader;
 public class Tracker {
 
     // Deconstructed frames folder
-    public String imageFolder = ".\\target\\classes\\images";
+    public static String imageFolder = ".\\target\\classes\\images";
 
     // Input path of the video file
     public String inputPath;
@@ -60,7 +60,7 @@ public class Tracker {
      * 
      * @return true if flushed successfully
      */
-    public boolean flushFrames() {
+    public static boolean flushFrames() {
         File directory = new File(imageFolder);
         File[] files = directory.listFiles();
         if (files != null) {
