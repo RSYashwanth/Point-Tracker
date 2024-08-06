@@ -1,0 +1,44 @@
+.hbox {
+    -fx-background-color: rgb(64, 64, 64);
+    -fx-padding: 0px;
+}
+
+.image-pane {
+    -fx-border-color: rgb(128, 128, 128);
+    -fx-border-width: 0 2px 0 0;
+}
+
+.button {
+    -fx-border-color: rgb(51, 168, 175);
+    -fx-border-width: 1px;
+    -fx-text-fill: rgb(51, 168, 175);
+    -fx-pref-width: 65px;
+    -fx-pref-height: 65px;
+    -fx-background-color: rgb(64, 64, 64);
+    -fx-border-radius: 3px;
+    -fx-transition-duration: 2s;
+
+}
+
+.button:hover {
+    -fx-background-color: rgb(54, 89, 91);
+}
+
+.warning-text {
+    -fx-text-fill: rgb(255, 20, 55);
+    -fx-padding: 2.5px;
+    -fx-font-weight: bold;
+}
+
+.button-container {
+    -fx-padding: 5px;
+}
+
+.vbox {
+    -fx-pref-width:150px;
+    -fx-padding: 2.5px;
+}
+
+.warning-container {
+
+}
